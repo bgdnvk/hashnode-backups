@@ -83,7 +83,7 @@ http://localhost:8080/call?val=myparam
 
 
 
-## Controller class code && TL;DR
+## Controller class code & TL;DR
 
 ```
 //@RestController annotation will make this class the controller
