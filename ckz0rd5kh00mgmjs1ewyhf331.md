@@ -6,10 +6,12 @@
 1. Make a database
 2. Connect database to our project
 3. Use GET calls to read from SQL database with Spring Boot
-4. Source code on Github: https://github.com/bgdnvk/sqldbexample
+4. Source code on [Github](https://github.com/bgdnvk/sqldbexample)
 5. Architecture:
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643512825318/lEWeqxy7J.png)
+
+For any questions you can ask me on [Twitter @ tekbog](https://twitter.com/tekbog)
 
 
 ## Set up the database (and make sure it's running)
@@ -95,14 +97,14 @@ And the dependencies are:
     </dependencies>
 ``` 
 
-You can get all of this from initializr: https://start.spring.io/
+You can use [Spring Initializr](https://start.spring.io/) as well to set up your project, it's highly recommended.
 
 ## Postman
 
-In order to make calls to the server I'm going to be using Postman: https://www.postman.com/
-Although there are many alternatives
+In order to make calls to the server I'm going to be using [Postman](https://www.postman.com/)
+Although there are many alternatives.
 
-# Understanding the different elements of our code
+# Architecture and code
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643513256644/OGcFKSGAZ.png)
 The "folders" are called packages, once you create them: inside you can make classes, interfaces, etc.
@@ -141,14 +143,14 @@ public class UserData {
 
 ``` 
 
-To begin we get Lombok so we don't have to write the getters for the class. Afterwards we define the class as Entity and map the Java objects to the database we are accessing.
-The most confused annotation could be GeneratedValue: we always need an id and in this case we made our id to be generated automatically. Annotation syntax is usually:
+To begin we import [Lombok](https://projectlombok.org/features/GetterSetter) so we don't have to write the getters for the class. Afterwards we define the class as Entity and map the Java objects to the database we are accessing.
+The most confused annotation could be GeneratedValue: we always need an id and in this case we made our id to be generated automatically. Spring annotations have the following syntax:
 ```
 @AnnotationName(parameter="parameter value")
 ``` 
 
 ## Repository
-The Repository interface is a DAO (data access object) bean that simplifies our interaction with SQL thanks to JPA, the interface takes 2 parameters: the type of object and the type of id, after which it will allow you to use its extended methods:
+The Repository interface is a [DAO (data access object)](https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/dao.html) bean that simplifies our interaction with SQL thanks to JPA, the interface takes 2 parameters: the type of object and the type of id, after which it will allow you to use its extended methods:
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643514703251/Li5KUFAKW.png)
 
@@ -215,12 +217,11 @@ public class UserDataServiceImpl implements UserDataService{
 }
 
 ``` 
-Thanks to the JPA repository we get access to all its methods without having to implement any of them, it just works with our MySQL database. So in order to get all the users from the table we use .findAll() method.
+Thanks to the [JPA](https://spring.io/projects/spring-data-jpa) repository we get access to all its methods without having to implement any of them, it just works with our MySQL database. So in order to get all the users from the table we use .findAll() method.
 
 
-## Api 
-You can read my previous article if you are unfamiliar with the controller:
-https://bognov.tech/starting-with-spring-boot-how-to-make-a-restful-get-endpoint
+## API
+[You can read my previous article if you are unfamiliar with the Controller](https://bognov.tech/starting-with-spring-boot-how-to-make-a-restful-get-endpoint)
 
 
 ```
@@ -243,12 +244,16 @@ public class Controller {
 ``` 
 The main difference is the fact that we add RequestMapping so everything goes to ```
 api/v1
-``` path.
+``` path after ```
+localhost:port/
+```. Putting the version of your API is good practice.
 
-To sum it up we use the UserDataService bean (service), the Autowired annotation allows us to get the bean through Inversion of Control (Spring magic) and use that interface's implementation without calling it ourselves.
+To sum it up we use the UserDataService bean (service), the Autowired annotation allows us to get the bean through [Inversion of Control (Spring magic)](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html) and use that interface's implementation without calling it ourselves.
 
 ## Test that everything works
-Start the server, make sure your database is running and then using Postman call localhost:8080/api/v1/getdata
+Start the server, make sure your database is running and then using Postman call ```
+localhost:8080/api/v1/getdata
+```
 
 you should get this back:
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643515521035/u4D0vpDOU.png)
