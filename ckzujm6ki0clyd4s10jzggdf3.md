@@ -36,6 +36,18 @@ Learn Java, learn [Spring](https://spring.io/) and you will never be out of a jo
 
 ![imagen.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1645310628891/xzMYlXhcx.png)
 
+## PHP
+Before JavaScript there was PHP, after JavaScript there's still PHP.  
+   
+This language went through a lot of iterations over the years to improve the developer's experience. Nowadays it's mainly used as a backend language on the web. It has two of the biggest frameworks: [Laravel](https://laravel.com/) and [Symfony](https://symfony.com/).   
+
+However PHP's main use comes from [WordPress](https://wordpress.org/). If you haven't heard or used WordPress, you should have a look. We don't know the exact statistics but everyone keeps saying that it powers over 33% of the web. Why? [It's fast to set up](https://bognov.tech/how-to-install-wordpress-with-plesk-on-digitalocean), design and have an e-commerce site ready or anything you'd want, there are millions of plugins and it's fairly easy to use for no-coders.   
+The perfect CMS, you can have a site with a blog in less than a day and focus on SEO (marketing loves WordPress for how easy it makes positioning) or whatever the business needs.  
+
+If you ever hear that PHP is dead or dying, well, just look at the amount of jobs there are.
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1645362528737/MlQDPHTMd.png)
+
 
 
 # JavaScript
@@ -115,4 +127,6 @@ Terraform, serverless architecture, Rust and everything involved in Web 3.0: blo
 
 [The cover art is from Joan Cornellà](https://joancornella.net/en/).  
 
-If you think I'm wrong we can argue on Twitter: [hmu @tekbog](https://twitter.com/tekbog).
+If you think I'm wrong we can argue on Twitter: [hmu @tekbog](https://twitter.com/tekbog).  
+
+Disclaimer: I haven't talked about C#, C++, Ruby, Swift, R, etc because they are out of my area of expertise.  
