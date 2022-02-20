@@ -1,6 +1,6 @@
 ## Full Stack development in 2022: trends, frameworks and languages.
 
-# Self-update or de deprecated 
+# Self-update or be deprecated 
 
 The tech industry is continuously evolving, changing, new tools are made every day and new frameworks are created or mass adopted. The point of this post is to glimpse at what's going on, check the current trends and where the industry is headed.
 
