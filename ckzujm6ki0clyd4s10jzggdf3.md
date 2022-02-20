@@ -13,7 +13,10 @@ If you ever want to know what language is the most popular a good and don't know
 Python currently being king but closely followed by C and Java. Let me give a quick explanation on why those languages are the most used.
 
 ## Python
-One of the selling points of Python is just how easy the syntax is and how it almost reads as pseudocode. It has libraries for all your needs and despite being criticized as slow it's widely used everywhere. 
+One of the selling points of Python is just how easy the syntax is and how it almost reads as pseudocode.   
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1645369062253/FmQ2Z4spx.png)
+Python has libraries for all your needs and despite being criticized as slow it's widely used everywhere. 
 Most projects related to data science or machine learning will rely on Python, not to mention it has three of the most popular web frameworks right now: [Django](https://github.com/django/django), [Flask](https://flask.palletsprojects.com/en/2.0.x/) and [FastAPI](https://github.com/tiangolo/fastapi).
 
 It's the perfect language for beginners but at the same time it's widely adopted everywhere, if you don't know where to start learn Python but good looking trying to figure out the best environment:
