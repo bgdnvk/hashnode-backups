@@ -121,7 +121,7 @@ For anything else? Well, as always, **it depends**.
 ![imagen.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1645315192940/np9-fehbq.png)
 
 # What else is out there?
-Terraform, serverless architecture, Rust and everything involved in Web 3.0: blockchain, crypto, NFTs, all that jazz.
+Terraform, serverless architecture, Rust, micro frontends and everything involved in Web 3.0: blockchain, crypto, NFTs, all that jazz.
 
 # C'est fini
 
