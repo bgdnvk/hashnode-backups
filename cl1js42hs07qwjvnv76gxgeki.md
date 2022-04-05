@@ -11,6 +11,8 @@ This is the first article of the MERN stack series that will progress in complex
 
 *NB: There's an 'older' stack, called [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) that consists of Linux, Apache, MySQL, PHP/Perl/Python, depending on your focus you might want to check it out*
 
+[You can find the next chapters of this series here: RESTful API with Node.JS, Express and MongoDB.](https://bognov.tech/mern-stack-2-connect-to-mongodb-with-nodejs-and-express)
+
 # Concepts and memes
 [Node.JS](https://en.wikipedia.org/wiki/Node.js) is a runtime environment for JavaScript, it basically allows you to ruin everything with JavaScript anywhere.
 
