@@ -1,4 +1,4 @@
-## MERN Stack 2: connect to MongoDB with Node.js and Express
+## MERN Stack 2: connect to MongoDB with Node.js and Express through a RESTful API
 
 # Intro
 You will learn how to make a full RESTful API that connects with a real database. The endpoints contain all the CRUD operations and you will apply modern techniques like ES6 export modules and async/await functions, as well as the relevant libraries to make building the project a breeze.
