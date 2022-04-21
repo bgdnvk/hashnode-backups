@@ -1,4 +1,4 @@
-## Best cheap WordPress hosting
+## WordPress hosting comparison
 
 # Is WordPress good?
 
