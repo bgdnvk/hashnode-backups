@@ -257,12 +257,12 @@ Read more [here](http://mi.codes/programming-principles-the-law-of-demeter-lod/)
 
 This introduces the concepts of **coupling** and **cohesion**.  
 - Decoupling: try to reduce the number of connections between different classes.  
-- Cohestion: the associated classes must be in one module/package/directory.
+- Cohesion: the associated classes must be in one module/package/directory.
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651094582588/T68ehSRRZ.png)
 
 
-# OOP Modelling  
+# OOP Modeling  
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651095017871/ryKB0A6si.png)
 You know the good principles, so time to write code! But wait, first you should model your ideas for a simpler implementation. Software engineers use [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) to design their systems.  
