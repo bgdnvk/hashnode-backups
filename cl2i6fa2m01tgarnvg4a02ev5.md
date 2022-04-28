@@ -30,7 +30,7 @@ So you start looking at OOP and it makes a lot of sense! You have everything org
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1650998816705/5kmsw0c7m.png)
 
-However with good practices and proper object modelling we can avoid having such a mess.
+However with good practices and proper object modeling we can avoid having such a mess.
 
 ##  Concepts
 
