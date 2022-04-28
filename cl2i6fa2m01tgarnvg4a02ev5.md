@@ -33,7 +33,6 @@ So you start looking at OOP and it makes a lot of sense! You have everything org
 However with good practices and proper object modelling we can avoid having such a mess.
 
 ##  Concepts
-https://www.w3resource.com/java-tutorial/java-object-oriented-programming.php  
 
 Objects are made through classes, what does this mean? 
 Classes are blueprints for whatever you want to make. You use that blueprint to create (or instantiate) the object that will run in memory.
